@@ -88,3 +88,53 @@ marquee {
   font-weight: 600;
   margin-bottom: 5px;
 }
+
+/* banner styles here */
+/* ------------------------------------------------------ */
+
+.banner-section {
+  width: 1159px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-info {
+  font-family: "Quicksand", serif;
+}
+
+.banner-info > h1 {
+  color: #111;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 61px;
+  margin-bottom: 24px;
+}
+
+.banner-info .em {
+  color: var(--Orange, #fea301);
+}
+
+.banner-info .to {
+  color: #01acfd;
+}
+
+.banner-info > p {
+  color: #111;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.banner-info > button {
+  border: none;
+  border-radius: 12px;
+  background-color: #111;
+  padding: 10px 60.5px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Quicksand", serif;
+}
