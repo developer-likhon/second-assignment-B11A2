@@ -6,28 +6,32 @@
     <title>Kids Education</title>
     <!-- css link here -->
     <link rel="stylesheet" href="styles/style.css" />
+    <!-- responsive css link -->
+    <link rel="stylesheet" href="styles/responsive.css" />
   </head>
 
   <body>
     <!-- header start here -->
-    <header>
+    <header class="res-hide">
       <nav>
         <!-- nav section start here -->
         <!-------------------------------------------------->
         <div class="nav-logo">
           <img src="assets/logo.png" alt="school_bag_logo" />
-          <h1>SCHOOL</h1>
+          <h1 class="res-hide">SCHOOL</h1>
+          <img class="bar pc-hide" src="assets/bar.png" alt="" />
         </div>
-        <div class="nav-menu">
+        <div class="nav-menu res-hide">
           <a class="nav-ho" href="#">Home</a>
           <a class="nav-ab" href="#">About</a>
           <a class="nav-fa" href="#">Facilities</a>
           <a class="nav-ad" href="#">Admission</a>
         </div>
-        <div class="nav-btn">
+        <div class="nav-btn res-hide">
           <button>Contact</button>
         </div>
       </nav>
+      <hr class="pc-hide" />
       <marquee scrollamount="10">
         "Education is the most powerful tool we can give our children; it opens
         their minds, shapes their future, and empowers them to change the
@@ -36,7 +40,7 @@
     </header>
 
     <!-- main start here -->
-    <main>
+    <main class="res-hide">
       <!-- banner section start here -->
       <!--------------------------------------------------->
       <div class="banner-section">
