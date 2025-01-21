@@ -83,26 +83,89 @@
     height: auto;
     background-size: contain;
     background-position: top;
+    margin-bottom: 50px;
   }
 
   .curriculam-cards {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 
   .standard-section > h1 {
-    color: #000;
-    text-align: center;
-    font-family: Quicksand;
-    font-size: 46px;
-    font-weight: 700;
-    line-height: 57.5px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     margin-top: 30px;
   }
 
   /* Our Stories styles here */
+
+  .our-stories {
+    background-image: url("../assets/bg.png"),
+      linear-gradient(
+        0deg,
+        rgba(254, 163, 1, 0.3) 10%,
+        rgba(255, 255, 255, 0.3) 100%
+      );
+    background-size: contain;
+    background-position: top;
+    height: auto;
+  }
+
+  .story-section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .story-section > h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .four-stories {
+    gap: 19px;
+  }
+
+  .story-two,
+  .story-three,
+  .story-four,
+  .story-five {
+    width: 245px;
+    border-radius: 9.527px;
+  }
+
+  .story-two > img,
+  .story-three > img,
+  .story-four > img,
+  .story-five > img {
+    width: 245px;
+    height: 130px;
+    height: auto;
+    border-radius: 9.527px 9.527px 0px 0px;
+  }
+
+  .story-two > h4,
+  .story-three > h4,
+  .story-four > h4,
+  .story-five > h4 {
+    font-size: 9.133px;
+    width: 81.252px;
+    height: 10.846px;
+  }
+
+  .story-two > h1,
+  .story-three > h1,
+  .story-four > h1,
+  .story-five > h1 {
+    font-size: 9.133px;
+    font-weight: 700;
+    font-size: 13px;
+  }
 
   /* Footer styles here */
 
