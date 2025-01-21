@@ -512,3 +512,95 @@ marquee {
   margin-top: 80px;
   margin-bottom: 60px;
 }
+
+/* Footer styles here */
+/* ------------------------------------------------------ */
+
+footer {
+  width: 100%;
+  height: 519px;
+  background: #01acfd;
+}
+
+.foot {
+  width: 1159px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot-logo {
+  display: flex;
+  align-items: center;
+  gap: 10.7px;
+  margin-top: 124px;
+}
+
+.foot-logo > img {
+  width: 82.902px;
+  height: 81.652px;
+}
+
+.foot-logo > h1 {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 42.143px;
+  font-weight: 700;
+  line-height: 39.509px;
+  margin: 0;
+}
+
+.foot-first > p {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 399.02px;
+  margin: 0;
+  margin-top: 35.68px;
+}
+
+.foot-second {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 123px;
+}
+
+.foot-second > a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.foot-second .about-school {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.foot-third {
+  margin-top: 124px;
+}
+
+.foot-third > h1 {
+  color: #fff;
+  font-family: Quicksand;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 0;
+}
+
+.foot-links {
+  display: flex;
+  gap: 10.15px;
+}
