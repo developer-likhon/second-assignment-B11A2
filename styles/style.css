@@ -229,6 +229,7 @@ marquee {
   background: linear-gradient(180deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
     #fff;
   box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+  border: 1px solid #fff4dc;
 }
 
 .card-two > .card-one > a {
@@ -240,6 +241,7 @@ marquee {
   background: linear-gradient(180deg, #eee1ff 0%, rgba(255, 255, 255, 0) 40%),
     #fff;
   box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+  border: 1px solid #e6d9f7cf;
 }
 
 .card-three > .card-one > a {
@@ -251,5 +253,262 @@ marquee {
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 60px;
+}
+
+/* Our Stories styles here */
+/* ------------------------------------------------------ */
+
+.our-stories {
+  background-image: url("../assets/bg.png"),
+    linear-gradient(
+      0deg,
+      rgba(254, 163, 1, 0.3) 10%,
+      rgba(255, 255, 255, 0.3) 100%
+    );
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1018px;
+  border: none;
+}
+
+.story-section {
+  width: 1159px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-section > h1 {
+  color: #000;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 57.5px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.stories {
+  display: flex;
+  gap: 19px;
+}
+
+.story-one {
+  width: 540.267px;
+  height: 630.518px;
+  border-radius: 16px;
+  background: #fff;
+  position: relative;
+}
+
+.story-one > img {
+  border-radius: 16px 16px 0px 0px;
+  width: 540px;
+  height: 337px;
+}
+
+.story-one > h4 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 15.339px;
+  font-weight: 500;
+  line-height: 28.761px;
+  border-radius: 47.934px;
+  background: #3cd8e8;
+  display: inline;
+  padding: 10px 18px;
+  margin-left: 38px;
+  position: relative;
+  bottom: 20px;
+}
+
+.story-one > h1 {
+  color: #000;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38.347px;
+  padding-left: 38px;
+}
+
+.story-one > p {
+  color: #666;
+  font-family: Raleway;
+  font-size: 15.339px;
+  font-weight: 500;
+  line-height: 28.761px;
+  padding-left: 38px;
+  margin-top: 51.77px;
+  padding-bottom: 34.52px;
+}
+
+.four-stories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 19px;
+}
+
+.story-two {
+  width: 290.693px;
+  height: 301px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.story-two > img {
+  border-radius: 16px 16px 0px 0px;
+}
+
+.story-two > h4 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 15.339px;
+  font-weight: 500;
+  line-height: 28.761px;
+  border-radius: 47.934px;
+  background: #3cd8e8;
+  display: inline;
+  padding: 10px 18px;
+  margin-left: 38px;
+  position: relative;
+  bottom: 20px;
+}
+
+.story-two > h1 {
+  color: #000;
+  font-family: Quicksand;
+  font-size: 15.339px;
+  font-weight: 700;
+  line-height: 28.761px;
+  margin-left: 38px;
+  margin-bottom: 28.76px;
+}
+
+.story-three {
+  width: 290.693px;
+  height: 301px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.story-three > img {
+  border-radius: 16px 16px 0px 0px;
+}
+
+.story-three > h4 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 15.339px;
+  font-weight: 500;
+  line-height: 28.761px;
+  border-radius: 47.934px;
+  background: #5d58f0;
+  display: inline;
+  padding: 10px 18px;
+  margin-left: 38px;
+  position: relative;
+  bottom: 20px;
+}
+
+.story-three > h1 {
+  color: #000;
+  font-family: Quicksand;
+  font-size: 15.339px;
+  font-weight: 700;
+  line-height: 28.761px;
+  margin-left: 38px;
+  margin-bottom: 28.76px;
+}
+
+.story-four {
+  width: 290.693px;
+  height: 301px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.story-four > img {
+  border-radius: 16px 16px 0px 0px;
+}
+
+.story-four > h4 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 15.339px;
+  font-weight: 500;
+  line-height: 28.761px;
+  border-radius: 47.934px;
+  background: #95b226;
+  display: inline;
+  padding: 10px 18px;
+  margin-left: 38px;
+  position: relative;
+  bottom: 20px;
+}
+
+.story-four > h1 {
+  color: #000;
+  font-family: Quicksand;
+  font-size: 15.339px;
+  font-weight: 700;
+  line-height: 28.761px;
+  margin-left: 38px;
+  margin-bottom: 28.76px;
+}
+
+.story-five {
+  width: 290.693px;
+  height: 301px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.story-five > img {
+  border-radius: 16px 16px 0px 0px;
+}
+
+.story-five > h4 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 15.339px;
+  font-weight: 500;
+  line-height: 28.761px;
+  border-radius: 47.934px;
+  background: #95b226;
+  display: inline;
+  padding: 10px 18px;
+  margin-left: 38px;
+  position: relative;
+  bottom: 20px;
+}
+
+.story-five > h1 {
+  color: #000;
+  font-family: Quicksand;
+  font-size: 15.339px;
+  font-weight: 700;
+  line-height: 28.761px;
+  margin-left: 38px;
+  margin-bottom: 28.76px;
+}
+
+.story-btn > button {
+  border: none;
+  border-radius: 12px;
+  background-color: #111;
+  padding: 10px 60.5px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Quicksand", serif;
+  cursor: pointer;
+  margin-top: 80px;
   margin-bottom: 60px;
 }
