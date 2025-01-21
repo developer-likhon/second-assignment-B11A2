@@ -1,6 +1,4 @@
 @media screen and (max-width: 576px) {
-  /* =========================== */
-
   /* hide */
   .res-hide {
     display: none;
@@ -11,6 +9,11 @@
 
   * {
     box-sizing: border-box;
+  }
+
+  body,
+  html {
+    overflow-x: hidden;
   }
 
   /* nav styles here */
