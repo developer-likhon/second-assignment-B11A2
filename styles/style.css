@@ -364,6 +364,7 @@ marquee {
   height: 301px;
   border-radius: 16px;
   background: #fff;
+  padding-bottom: 5px;
 }
 
 .story-two > img {
@@ -400,6 +401,7 @@ marquee {
   height: 301px;
   border-radius: 16px;
   background: #fff;
+  padding-bottom: 5px;
 }
 
 .story-three > img {
@@ -436,6 +438,7 @@ marquee {
   height: 301px;
   border-radius: 16px;
   background: #fff;
+  padding-bottom: 5px;
 }
 
 .story-four > img {
@@ -472,6 +475,7 @@ marquee {
   height: 301px;
   border-radius: 16px;
   background: #fff;
+  padding-bottom: 5px;
 }
 
 .story-five > img {

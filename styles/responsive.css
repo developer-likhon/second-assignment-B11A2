@@ -98,6 +98,13 @@
     margin-top: 30px;
   }
 
+  .card-one,
+  .card-two > .card-one,
+  .card-three > .card-one {
+    width: 450px;
+    padding: 36px 28px;
+  }
+
   /* Our Stories styles here */
 
   .our-stories {
@@ -136,6 +143,7 @@
   .story-four,
   .story-five {
     width: 245px;
+    height: auto;
     border-radius: 9.527px;
   }
 
@@ -144,7 +152,6 @@
   .story-four > img,
   .story-five > img {
     width: 245px;
-    height: 130px;
     height: auto;
     border-radius: 9.527px 9.527px 0px 0px;
   }
